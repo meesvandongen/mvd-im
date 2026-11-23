@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+<style>.i,.ia,.ip{fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.i{stroke:#1c1b19}.ia{stroke:#ea580c}.ip{stroke:#fff}.a{fill:#ea580c}.b{fill:#fed7aa}.p{fill:#fff}.k{fill:#1c1b19}.t,.tp{font-family:system-ui,sans-serif;font-weight:700}.t{fill:#1c1b19}.tp{fill:#fff}</style>
+<rect class="p i" x="8" y="12" width="36" height="30" rx="3"/>
+<circle class="a" cx="34" cy="21" r="3.5"/>
+<path class="i" d="M11 38L20 28L27 34L32 29L41 38"/>
+<path class="b i" d="M38 52a6.5 6.5 0 0 1 0-13 8.5 8.5 0 0 1 16 1 6 6 0 0 1 0 12z"/>
+<path class="ia" d="M46.5 41V48M43.5 45l3 3 3-3"/>
+</svg>

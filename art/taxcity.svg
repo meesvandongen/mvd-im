@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+<style>.i,.ia,.ip{fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.i{stroke:#1c1b19}.ia{stroke:#ea580c}.ip{stroke:#fff}.a{fill:#ea580c}.b{fill:#fed7aa}.p{fill:#fff}.k{fill:#1c1b19}.t,.tp{font-family:system-ui,sans-serif;font-weight:700}.t{fill:#1c1b19}.tp{fill:#fff}</style>
+<path class="i" d="M6 54H58"/>
+<rect class="b i" x="10" y="30" width="12" height="24"/>
+<rect class="a" x="14" y="35" width="4" height="3"/><rect class="a" x="14" y="42" width="4" height="3"/>
+<rect class="p i" x="24" y="16" width="14" height="38"/>
+<rect class="a" x="28" y="22" width="3" height="3"/><rect class="a" x="32" y="22" width="3" height="3"/>
+<rect class="a" x="28" y="29" width="3" height="3"/><rect class="a" x="32" y="29" width="3" height="3"/>
+<rect class="a" x="28" y="36" width="3" height="3"/><rect class="a" x="32" y="36" width="3" height="3"/>
+<rect class="b i" x="40" y="36" width="14" height="18"/>
+<circle class="a" cx="47" cy="21" r="8"/>
+<circle class="p" cx="44.4" cy="18.4" r="1.6"/><circle class="p" cx="49.6" cy="23.6" r="1.6"/><path class="ip" d="M50.2 17.2L43.8 24.8"/>
+</svg>

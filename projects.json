@@ -1,17 +1,18 @@
 {
   "$schema": "./projects.schema.json",
   "categories": [
-    { "id": "apps", "title": "Apps & games", "blurb": "Things you can open in a browser and use." },
-    { "id": "auth", "title": "Auth & infrastructure", "blurb": "Gateways, identity providers and Git plumbing." },
-    { "id": "libraries", "title": "Libraries", "blurb": "Packages for TypeScript and React." },
-    { "id": "tooling", "title": "Build & release tooling", "blurb": "CI, release and dependency automation." },
-    { "id": "data", "title": "Data & APIs", "blurb": "Datasets and API specifications." },
-    { "id": "lolmath", "title": "lolmath", "blurb": "League of Legends maths, data and UI." }
+    { "id": "apps", "title": "Apps & games", "blurb": "Things you can open in a browser and use.", "icon": "apps", "color": "orange", "featured": true },
+    { "id": "auth", "title": "Auth & infrastructure", "blurb": "Gateways, identity providers and Git plumbing.", "icon": "shield", "color": "teal" },
+    { "id": "libraries", "title": "Libraries", "blurb": "Packages for TypeScript and React.", "icon": "layers", "color": "indigo" },
+    { "id": "tooling", "title": "Build & release tooling", "blurb": "CI, release and dependency automation.", "icon": "pipeline", "color": "amber" },
+    { "id": "data", "title": "Data & APIs", "blurb": "Datasets and API specifications.", "icon": "database", "color": "pink" },
+    { "id": "lolmath", "title": "lolmath", "blurb": "League of Legends maths, data and UI.", "icon": "hexagon", "color": "sky" }
   ],
   "projects": [
     {
       "name": "TaxCity",
       "category": "apps",
+      "art": "taxcity",
       "description": "An agent-based 3D city simulator for comparing tax regimes: Georgist land value tax, income, wealth, property, Harberger and more.",
       "links": { "site": "https://tax.mvd.im", "source": "https://github.com/meesvandongen/Tax" },
       "tags": ["Rust", "WebAssembly", "simulation"]
@@ -19,6 +20,7 @@
     {
       "name": "Solitaire Suite",
       "category": "apps",
+      "art": "solitaire",
       "description": "Klondike, FreeCell, Spider, TriPeaks, Pyramid and Hearts. Built with Tauri, Rust and SolidJS, as desktop apps and as one web bundle.",
       "links": { "site": "https://solitaire.mvd.im", "source": "https://github.com/meesvandongen/klondike" },
       "tags": ["Rust", "SolidJS", "Tauri", "game"]
@@ -26,6 +28,7 @@
     {
       "name": "Pinpoint",
       "category": "apps",
+      "art": "pinpoint",
       "description": "A game for real cities: follow the clues to each place, check in, and collect stamps and photos. Installs like an app and works offline.",
       "links": { "site": "https://pinpoint.mvd.im", "source": "https://github.com/meesvandongen/pinpoint" },
       "tags": ["PWA", "game", "maps"]
@@ -33,6 +36,7 @@
     {
       "name": "Japanese Flashcards",
       "category": "apps",
+      "art": "jp-flashcards",
       "description": "Flashcards for learning Japanese.",
       "links": { "site": "https://jp.mvd.im", "source": "https://github.com/meesvandongen/japanese-learning" },
       "tags": ["Japanese", "learning"]
@@ -40,6 +44,7 @@
     {
       "name": "読む読む JP Reading",
       "category": "apps",
+      "art": "jp-reading",
       "description": "A free, open-source Japanese graded reader with furigana, dictionary lookups, pitch accent and stroke order. Installable and works offline.",
       "links": { "site": "https://jpr.mvd.im", "source": "https://github.com/meesvandongen/JP-reading" },
       "tags": ["Japanese", "learning", "PWA"]
@@ -47,6 +52,7 @@
     {
       "name": "Lees mee · NL Reading",
       "category": "apps",
+      "art": "nl-reading",
       "description": "A free, open-source Dutch graded reader, rebuilt from JP Reading with reading aids for Dutch. Installable and works offline.",
       "links": { "site": "https://nlr.mvd.im", "source": "https://github.com/meesvandongen/nl-reading" },
       "tags": ["Dutch", "learning", "PWA"]
@@ -54,6 +60,7 @@
     {
       "name": "Year in MAL",
       "category": "apps",
+      "art": "year-in-mal",
       "description": "Your year in anime, wrapped. Log in with MyAnimeList for a recap of favourites, hot takes, hidden gems, genres and studios.",
       "links": { "site": "https://mal.mvd.im", "source": "https://github.com/meesvandongen/year-in-mal" },
       "tags": ["React", "anime"]
@@ -61,20 +68,15 @@
     {
       "name": "Anime Table",
       "category": "apps",
+      "art": "anime-table",
       "description": "A sortable, filterable table of the anime on MyAnimeList.",
       "links": { "site": "https://anime-table.pages.dev", "source": "https://github.com/meesvandongen/anime-table" },
       "tags": ["anime"]
     },
     {
-      "name": "Just One",
-      "category": "apps",
-      "description": "A cooperative online word-guessing party game. Real-time multiplayer on Cloudflare with PartyKit.",
-      "links": { "site": "https://one.mvd.im", "source": "https://github.com/meesvandongen/just-one-cf" },
-      "tags": ["React", "multiplayer", "game"]
-    },
-    {
       "name": "Dutch Car Cost Calculator",
       "category": "apps",
+      "art": "car",
       "description": "Compare the total cost of private ownership, private lease and business lease in the Netherlands, including Dutch tax rules (2026).",
       "links": { "site": "https://car.mvd.im", "source": "https://github.com/meesvandongen/car-ownership" },
       "tags": ["Svelte", "finance", "NL"]
@@ -82,6 +84,7 @@
     {
       "name": "Marginale druk 2026",
       "category": "apps",
+      "art": "marginale-druk",
       "description": "Interactive calculator for the Dutch marginal tax rate in 2026: income tax, tax credits and benefits as your salary changes.",
       "links": { "site": "https://marginale-druk.mvd.im", "source": "https://github.com/meesvandongen/marginale-druk" },
       "tags": ["Observable", "finance", "NL"]
@@ -90,6 +93,7 @@
     {
       "name": "Sekisho 関所",
       "category": "auth",
+      "art": "sekisho",
       "description": "An OIDC-aware policy gateway that admits only the requests you have explicitly allowed.",
       "links": { "docs": "https://sekisho.mvd.im", "source": "https://github.com/meesvandongen/sekisho" },
       "tags": ["Go", "OIDC", "gateway"]
@@ -97,6 +101,7 @@
     {
       "name": "@mvd/mock-oidc",
       "category": "auth",
+      "art": "mock-oidc",
       "description": "A mock OpenID Connect provider for single-page apps, with MSW and Playwright integrations.",
       "links": {
         "docs": "https://mock-oidc.mvd.im",
@@ -109,6 +114,7 @@
     {
       "name": "@mvd/auth",
       "category": "auth",
+      "art": "auth",
       "description": "Browser-first OAuth 2.0 Authorization Code flow with PKCE, plus optional React hooks.",
       "links": { "docs": "https://auth.mvd.im", "npm": "@mvd/auth" },
       "tags": ["OAuth", "React"]
@@ -116,6 +122,7 @@
     {
       "name": "gitvfs",
       "category": "auth",
+      "art": "gitvfs",
       "description": "Git repositories as a filesystem, with a CMS on top. Browse, edit and commit to GitHub and GitLab repositories from the browser.",
       "links": {
         "docs": "https://docs.gitvfs.mvd.im",
@@ -128,6 +135,7 @@
     {
       "name": "better-auth-proxy",
       "category": "auth",
+      "art": "better-auth-proxy",
       "description": "An oauth2-proxy-style auth_request service built on Better Auth, with an NGINX front proxy.",
       "links": { "source": "https://github.com/meesvandongen/better-auth-proxy" },
       "tags": ["Bun", "auth"]
@@ -136,6 +144,7 @@
     {
       "name": "@mvd/table",
       "category": "libraries",
+      "art": "table",
       "description": "A fully featured React table on TanStack Table v9: one component, one prop per feature, themed with CSS variables.",
       "links": { "docs": "https://table.mvd.im", "npm": "@mvd/table", "source": "https://github.com/meesvandongen/Rtc2" },
       "tags": ["React", "TanStack"]
@@ -143,6 +152,7 @@
     {
       "name": "@mvd/memrel",
       "category": "libraries",
+      "art": "memrel",
       "description": "A small, synchronous, in-memory relational store for typed mock data: composite keys, foreign keys, cascades, transactions and snapshots.",
       "links": {
         "docs": "https://meesvandongen.github.io/memrel/",
@@ -154,6 +164,7 @@
     {
       "name": "@mvd/event-target",
       "category": "libraries",
+      "art": "event-target",
       "description": "A type-safe EventTarget for TypeScript, with typed event names and typed CustomEvent.detail.",
       "links": { "npm": "@mvd/event-target", "source": "https://github.com/meesvandongen/event-target" },
       "tags": ["TypeScript"]
@@ -161,6 +172,7 @@
     {
       "name": "@mvd/tsmd",
       "category": "libraries",
+      "art": "tsmd",
       "description": "Generate Markdown documentation from TypeScript source files.",
       "links": { "npm": "@mvd/tsmd", "source": "https://github.com/meesvandongen/tsmd" },
       "tags": ["TypeScript", "docs"]
@@ -168,6 +180,7 @@
     {
       "name": "@mvd/gls",
       "category": "libraries",
+      "art": "gls",
       "description": "Interactive GitLab project search CLI with a local SQLite cache, stale-while-revalidate refreshing and fzf selection.",
       "links": { "npm": "@mvd/gls", "source": "https://github.com/meesvandongen/gitlab-search" },
       "tags": ["CLI", "GitLab"]
@@ -175,6 +188,7 @@
     {
       "name": "kukkii",
       "category": "libraries",
+      "art": "kukkii",
       "description": "Cookie helpers for the edge.",
       "links": { "npm": "kukkii", "source": "https://github.com/meesvandongen/kukkii" },
       "tags": ["TypeScript", "edge"]
@@ -182,6 +196,7 @@
     {
       "name": "peeji",
       "category": "libraries",
+      "art": "peeji",
       "description": "A headless pagination utility.",
       "links": {
         "docs": "https://meesvandongen.github.io/peeji/",
@@ -193,6 +208,7 @@
     {
       "name": "mdasterix",
       "category": "libraries",
+      "art": "mdasterix",
       "description": "A Markdown AST builder for use with @types/mdast.",
       "links": { "npm": "mdasterix", "source": "https://github.com/meesvandongen/mdasterix" },
       "tags": ["Markdown", "mdast"]
@@ -200,6 +216,7 @@
     {
       "name": "crd-to-mdast",
       "category": "libraries",
+      "art": "crd-to-mdast",
       "description": "Turn Kubernetes CustomResourceDefinitions into a Markdown AST.",
       "links": { "npm": "crd-to-mdast", "source": "https://github.com/meesvandongen/crd-to-mdast" },
       "tags": ["Kubernetes", "mdast"]
@@ -207,6 +224,7 @@
     {
       "name": "toranpu",
       "category": "libraries",
+      "art": "toranpu",
       "description": "A library for managing the state of playing cards.",
       "links": {
         "docs": "https://meesvandongen.github.io/toranpu/",
@@ -218,6 +236,7 @@
     {
       "name": "kurasu",
       "category": "libraries",
+      "art": "kurasu",
       "description": "A higher-order component that adds classes to React components and DOM elements. Handy with utility CSS such as Tailwind.",
       "links": { "npm": "kurasu", "source": "https://github.com/meesvandongen/kurasu" },
       "tags": ["React", "Tailwind"]
@@ -225,6 +244,7 @@
     {
       "name": "tri-slider",
       "category": "libraries",
+      "art": "tri-slider",
       "description": "A React slider component with three values.",
       "links": { "npm": "tri-slider", "source": "https://gitlab.com/meesvandongen/tri-slider" },
       "tags": ["React"]
@@ -233,6 +253,7 @@
     {
       "name": "semantic-release-yaml",
       "category": "tooling",
+      "art": "semantic-release-yaml",
       "description": "A semantic-release plugin that edits YAML files during the prepare step.",
       "links": { "npm": "semantic-release-yaml", "source": "https://github.com/meesvandongen/semantic-release-yaml" },
       "tags": ["semantic-release"]
@@ -240,6 +261,7 @@
     {
       "name": "gitlab-monorepo",
       "category": "tooling",
+      "art": "gitlab-monorepo",
       "description": "A GitLab CI pipeline generator for monorepos.",
       "links": { "npm": "gitlab-monorepo" },
       "tags": ["GitLab", "CI"]
@@ -247,6 +269,7 @@
     {
       "name": "renovate-config",
       "category": "tooling",
+      "art": "renovate-config",
       "description": "Shared Renovate preset for my repositories.",
       "links": { "source": "https://github.com/meesvandongen/renovate-config" },
       "tags": ["Renovate"]
@@ -255,6 +278,7 @@
     {
       "name": "anime-dataset",
       "category": "data",
+      "art": "anime-dataset",
       "description": "The MyAnimeList dataset behind Anime Table.",
       "links": { "site": "https://anime-table.pages.dev", "source": "https://github.com/meesvandongen/anime-dataset" },
       "tags": ["anime", "dataset"]
@@ -262,6 +286,7 @@
     {
       "name": "myanimelist-openapi",
       "category": "data",
+      "art": "myanimelist-openapi",
       "description": "An OpenAPI specification for the MyAnimeList API.",
       "links": { "source": "https://github.com/meesvandongen/myanimelist-openapi" },
       "tags": ["OpenAPI", "anime"]
@@ -270,6 +295,7 @@
     {
       "name": "lolmath.net",
       "category": "lolmath",
+      "art": "lolmath",
       "description": "A League of Legends build calculator: finds the mathematically best items for a champion from runes, enemy team composition and playstyle.",
       "links": { "site": "https://lolmath.net", "docs": "https://docs.lolmath.net", "source": "https://gitlab.com/lol-math/lolmath" },
       "tags": ["League of Legends"]
@@ -277,6 +303,7 @@
     {
       "name": "@lolmath/ui",
       "category": "lolmath",
+      "art": "lolmath-ui",
       "description": "A React component library styled after the League of Legends client, built on React Aria Components. Used by lolmath.net.",
       "links": {
         "site": "https://ui.lolmath.net",
@@ -289,6 +316,7 @@
     {
       "name": "@lolmath/ddragon",
       "category": "lolmath",
+      "art": "ddragon",
       "description": "Get data and images from the League of Legends Data Dragon API.",
       "links": {
         "docs": "https://docs.lolmath.net/ddragon",
@@ -300,6 +328,7 @@
     {
       "name": "@lolmath/calc",
       "category": "lolmath",
+      "art": "calc",
       "description": "League of Legends stat formulas: ability haste, attack speed, growth, movement speed, resistances and stacking.",
       "links": {
         "docs": "https://docs.lolmath.net/calc",
@@ -311,6 +340,7 @@
     {
       "name": "@lolmath/threads",
       "category": "lolmath",
+      "art": "threads",
       "description": "Web Worker threads, as simple as a function call.",
       "links": { "npm": "@lolmath/threads", "source": "https://gitlab.com/lol-math/threads" },
       "tags": ["Web Workers"]

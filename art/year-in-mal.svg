@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+<style>.i,.ia,.ip{fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.i{stroke:#1c1b19}.ia{stroke:#ea580c}.ip{stroke:#fff}.a{fill:#ea580c}.b{fill:#fed7aa}.p{fill:#fff}.k{fill:#1c1b19}.t,.tp{font-family:system-ui,sans-serif;font-weight:700}.t{fill:#1c1b19}.tp{fill:#fff}</style>
+<rect class="p i" x="10" y="14" width="44" height="40" rx="4"/>
+<path class="a" d="M10 18a4 4 0 0 1 4-4h36a4 4 0 0 1 4 4v6H10z"/>
+<rect class="i" x="10" y="14" width="44" height="40" rx="4"/>
+<path class="i" d="M20 10V18M44 10V18"/>
+<path class="b i" d="M32 31 L34.35 36.76 L40.56 37.22 L35.8 41.24 L37.29 47.28 L32 44 L26.71 47.28 L28.2 41.24 L23.44 37.22 L29.65 36.76 Z"/>
+<circle class="k" cx="17" cy="32" r="1.5"/><circle class="k" cx="17" cy="40" r="1.5"/><circle class="k" cx="17" cy="48" r="1.5"/>
+<circle class="k" cx="47" cy="32" r="1.5"/><circle class="k" cx="47" cy="48" r="1.5"/>
+</svg>

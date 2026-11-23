@@ -10,6 +10,7 @@ Everything comes from [`projects.json`](./projects.json). Your editor checks it 
 {
   "name": "@mvd/example",
   "category": "libraries",            // an id from "categories"
+  "art": "example",                   // art/example.svg
   "description": "One sentence.",
   "links": {
     "site": "https://example.mvd.im", // live app, gets the "live" badge
@@ -23,6 +24,25 @@ Everything comes from [`projects.json`](./projects.json). Your editor checks it 
 ```
 
 The card title links to the first of `site`, `docs`, `demo`, `source` or `npm`.
+
+## Illustrations
+
+Each project can have a 64×64 duotone illustration in [`art/`](./art). They're inlined into the page and coloured by their section, so draw with these classes instead of colours:
+
+| Class | Meaning |
+| --- | --- |
+| `i` | ink stroke (text colour) |
+| `ia` | accent stroke |
+| `ip` | paper stroke (card background) |
+| `a` | accent fill |
+| `b` | soft accent fill |
+| `p` | paper fill |
+| `k` | ink fill |
+| `t` / `tp` | ink / paper text |
+
+The `<style>` block at the top of each file is only for previewing it on its own; the build strips it. A project without `art` falls back to its section icon.
+
+Sections (`categories`) take an `icon` (one of the names in `ICONS` in `build.mjs`), a `color` (`orange`, `teal`, `indigo`, `amber`, `pink` or `sky`) and `featured: true` to show illustrations as large banners.
 
 ## Build
 

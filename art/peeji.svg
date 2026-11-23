@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+<style>.i,.ia,.ip{fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.i{stroke:#1c1b19}.ia{stroke:#ea580c}.ip{stroke:#fff}.a{fill:#ea580c}.b{fill:#fed7aa}.p{fill:#fff}.k{fill:#1c1b19}.t,.tp{font-family:system-ui,sans-serif;font-weight:700}.t{fill:#1c1b19}.tp{fill:#fff}</style>
+<path class="b i" d="M26 6H36L41 11V21H26Z"/><path class="i" d="M36 6V11H41M29 15H37"/>
+<rect class="p i" x="3" y="26" width="10" height="12" rx="3"/><path class="i" d="M9.5 28.5L6.5 32L9.5 35.5"/>
+<rect class="p i" x="15" y="26" width="10" height="12" rx="3"/><text class="t" x="20" y="35" font-size="8" text-anchor="middle">1</text>
+<rect class="a i" x="27" y="26" width="10" height="12" rx="3"/><text class="tp" x="32" y="35" font-size="8" text-anchor="middle">2</text>
+<rect class="p i" x="39" y="26" width="10" height="12" rx="3"/><text class="t" x="44" y="35" font-size="8" text-anchor="middle">3</text>
+<rect class="p i" x="51" y="26" width="10" height="12" rx="3"/><path class="i" d="M54.5 28.5L57.5 32L54.5 35.5"/>
+<circle class="a" cx="32" cy="46" r="1.8"/><circle class="k" cx="25" cy="46" r="1.2"/><circle class="k" cx="39" cy="46" r="1.2"/>
+</svg>
