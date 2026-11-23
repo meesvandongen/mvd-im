@@ -41,8 +41,7 @@
               "source": { "type": "string", "format": "uri" }
             }
           },
-          "tags": { "type": "array", "items": { "type": "string" } },
-          "archived": { "type": "boolean", "description": "No longer maintained. Shown at the end of its section, dimmed." }
+          "tags": { "type": "array", "items": { "type": "string" } }
         }
       }
     }

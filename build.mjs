@@ -77,13 +77,10 @@ function card(p) {
     );
   if (l.source) links.push(`<a class="link" href="${esc(l.source)}">${sourceLabel(l.source)}</a>`);
 
-  const flags = [
-    live ? `<span class="badge badge--live" title="Live site">live</span>` : "",
-    p.archived ? `<span class="badge badge--archived" title="No longer maintained">archived</span>` : "",
-  ].join("");
+  const flags = live ? `<span class="badge badge--live" title="Live site">live</span>` : "";
 
   return `
-      <li class="card${p.archived ? " card--archived" : ""}" data-search="${esc(haystack)}"${live ? " data-live" : ""}${l.npm ? " data-npm" : ""}${p.archived ? " data-archived" : ""}>
+      <li class="card" data-search="${esc(haystack)}"${live ? " data-live" : ""}${l.npm ? " data-npm" : ""}>
         <div class="card__head">
           <h3 class="card__title"><a href="${esc(url)}">${esc(p.name)}</a></h3>
           ${flags}
@@ -95,9 +92,7 @@ function card(p) {
 }
 
 function section(cat) {
-  const projects = data.projects
-    .filter((p) => p.category === cat.id)
-    .sort((a, b) => Number(Boolean(a.archived)) - Number(Boolean(b.archived)));
+  const projects = data.projects.filter((p) => p.category === cat.id);
   if (projects.length === 0) return "";
   return `
     <section class="section" id="${esc(cat.id)}" data-section>
@@ -113,7 +108,6 @@ function section(cat) {
 const total = data.projects.length;
 const liveCount = data.projects.filter((p) => p.links.site).length;
 const npmCount = data.projects.filter((p) => p.links.npm).length;
-const archivedCount = data.projects.filter((p) => p.archived).length;
 const built = new Date().toISOString().slice(0, 10);
 
 const css = /* css */ `
@@ -180,8 +174,6 @@ a { color: inherit; }
   background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
   transition: border-color .15s, transform .15s; }
 .card:hover { border-color: var(--border-strong); }
-.card--archived { opacity: .62; }
-.card--archived:hover { opacity: 1; }
 .card__head { display: flex; align-items: flex-start; gap: 8px; }
 .card__title { margin: 0; font-size: 17px; line-height: 1.3; letter-spacing: -0.01em; flex: 1; overflow-wrap: anywhere; }
 .card__title a { text-decoration: none; }
@@ -191,7 +183,6 @@ a { color: inherit; }
 .badge--live { color: var(--live); background: var(--live-soft); }
 .badge--live::before { content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%;
   background: currentColor; margin-right: 5px; vertical-align: 1px; }
-.badge--archived { color: var(--muted); background: var(--chip); }
 .tags { display: flex; flex-wrap: wrap; gap: 4px; list-style: none; margin: 0; padding: 0; }
 .tags li { font: 12px/1 var(--mono); color: var(--muted); background: var(--chip); padding: 4px 7px; border-radius: 5px; }
 .links { display: flex; flex-wrap: wrap; gap: 6px 14px; padding-top: 10px; border-top: 1px solid var(--border);
@@ -293,7 +284,6 @@ const html = `<!doctype html>
       <li><b>${total}</b> projects</li>
       <li><b>${liveCount}</b> live</li>
       <li><b>${npmCount}</b> on npm</li>
-      <li><b>${archivedCount}</b> archived</li>
     </ul>
     <ul class="jump">${data.categories
       .filter((c) => data.projects.some((p) => p.category === c.id))
@@ -308,7 +298,6 @@ const html = `<!doctype html>
         <button class="filter" type="button" data-filter="all" aria-pressed="true">All</button>
         <button class="filter" type="button" data-filter="live" aria-pressed="false">Live</button>
         <button class="filter" type="button" data-filter="npm" aria-pressed="false">npm</button>
-        <button class="filter" type="button" data-filter="archived" aria-pressed="false">Archived</button>
       </div>
     </div>
   </div>

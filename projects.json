@@ -41,14 +41,14 @@
       "name": "読む読む JP Reading",
       "category": "apps",
       "description": "A free, open-source Japanese graded reader with furigana, dictionary lookups, pitch accent and stroke order. Installable and works offline.",
-      "links": { "source": "https://github.com/meesvandongen/JP-reading" },
+      "links": { "site": "https://jpr.mvd.im", "source": "https://github.com/meesvandongen/JP-reading" },
       "tags": ["Japanese", "learning", "PWA"]
     },
     {
       "name": "Lees mee · NL Reading",
       "category": "apps",
       "description": "A free, open-source Dutch graded reader, rebuilt from JP Reading with reading aids for Dutch. Installable and works offline.",
-      "links": { "source": "https://github.com/meesvandongen/nl-reading" },
+      "links": { "site": "https://nlr.mvd.im", "source": "https://github.com/meesvandongen/nl-reading" },
       "tags": ["Dutch", "learning", "PWA"]
     },
     {
@@ -173,14 +173,6 @@
       "tags": ["CLI", "GitLab"]
     },
     {
-      "name": "@mvd/sqlite-mcp",
-      "category": "libraries",
-      "description": "A Model Context Protocol (MCP) server for SQLite database operations.",
-      "links": { "npm": "@mvd/sqlite-mcp", "source": "https://github.com/meesvandongen/sqlite-mcp" },
-      "tags": ["MCP", "SQLite"],
-      "archived": true
-    },
-    {
       "name": "kukkii",
       "category": "libraries",
       "description": "Cookie helpers for the edge.",
@@ -259,30 +251,6 @@
       "links": { "source": "https://github.com/meesvandongen/renovate-config" },
       "tags": ["Renovate"]
     },
-    {
-      "name": "moyare",
-      "category": "tooling",
-      "description": "Monorepo YAML replacer.",
-      "links": { "npm": "moyare", "source": "https://github.com/meesvandongen/moyare" },
-      "tags": ["monorepo"],
-      "archived": true
-    },
-    {
-      "name": "mogipu",
-      "category": "tooling",
-      "description": "Monorepo GitLab image publisher.",
-      "links": { "npm": "mogipu", "source": "https://github.com/meesvandongen/mogipu" },
-      "tags": ["GitLab", "Docker"],
-      "archived": true
-    },
-    {
-      "name": "unplugin-style-dictionary-utils",
-      "category": "tooling",
-      "description": "Use Style Dictionary design tokens from Vite and other bundlers.",
-      "links": { "npm": "unplugin-style-dictionary-utils", "source": "https://github.com/meesvandongen/unplugin-style-dictionary-utils" },
-      "tags": ["Vite", "design tokens"],
-      "archived": true
-    },
 
     {
       "name": "anime-dataset",
@@ -302,29 +270,42 @@
     {
       "name": "lolmath.net",
       "category": "lolmath",
-      "description": "League of Legends maths: stats, calculators and data.",
-      "links": { "site": "https://lolmath.net", "source": "https://gitlab.com/lol-math/lolmath" },
+      "description": "A League of Legends build calculator: finds the mathematically best items for a champion from runes, enemy team composition and playstyle.",
+      "links": { "site": "https://lolmath.net", "docs": "https://docs.lolmath.net", "source": "https://gitlab.com/lol-math/lolmath" },
       "tags": ["League of Legends"]
     },
     {
       "name": "@lolmath/ui",
       "category": "lolmath",
-      "description": "The lolmath.net UI component library.",
-      "links": { "docs": "https://ui.lolmath.net", "npm": "@lolmath/ui", "source": "https://github.com/lolmath/lolmath" },
-      "tags": ["React", "UI"]
+      "description": "A React component library styled after the League of Legends client, built on React Aria Components. Used by lolmath.net.",
+      "links": {
+        "site": "https://ui.lolmath.net",
+        "docs": "https://docs.lolmath.net/ui",
+        "npm": "@lolmath/ui",
+        "source": "https://gitlab.com/lol-math/lolmath/-/tree/main/packages/ui"
+      },
+      "tags": ["React", "React Aria", "Storybook"]
     },
     {
       "name": "@lolmath/ddragon",
       "category": "lolmath",
-      "description": "Get data from the League of Legends Data Dragon API.",
-      "links": { "npm": "@lolmath/ddragon", "source": "https://gitlab.com/lol-math/lolmath/-/tree/main/packages/ddragon" },
+      "description": "Get data and images from the League of Legends Data Dragon API.",
+      "links": {
+        "docs": "https://docs.lolmath.net/ddragon",
+        "npm": "@lolmath/ddragon",
+        "source": "https://gitlab.com/lol-math/lolmath/-/tree/main/packages/ddragon"
+      },
       "tags": ["League of Legends", "API"]
     },
     {
       "name": "@lolmath/calc",
       "category": "lolmath",
-      "description": "Functions for calculating League of Legends stats.",
-      "links": { "npm": "@lolmath/calc", "source": "https://gitlab.com/lol-math/lolmath" },
+      "description": "League of Legends stat formulas: ability haste, attack speed, growth, movement speed, resistances and stacking.",
+      "links": {
+        "docs": "https://docs.lolmath.net/calc",
+        "npm": "@lolmath/calc",
+        "source": "https://gitlab.com/lol-math/lolmath/-/tree/main/packages/calc"
+      },
       "tags": ["League of Legends"]
     },
     {

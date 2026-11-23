@@ -18,8 +18,7 @@ Everything comes from [`projects.json`](./projects.json). Your editor checks it 
     "npm": "@mvd/example",            // package name; latest version is fetched at build time
     "source": "https://github.com/meesvandongen/example"
   },
-  "tags": ["TypeScript"],
-  "archived": false                   // dimmed and listed last in its section
+  "tags": ["TypeScript"]
 }
 ```
 
