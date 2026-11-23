@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+<style>.i,.ia,.ip{fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.i{stroke:#1c1b19}.ia{stroke:#ea580c}.ip{stroke:#fff}.a{fill:#ea580c}.b{fill:#fed7aa}.p{fill:#fff}.k{fill:#1c1b19}.t,.tp{font-family:system-ui,sans-serif;font-weight:700}.t{fill:#1c1b19}.tp{fill:#fff}</style>
+<path class="b i" d="M6 12H22L28 18V44H6Z"/><path class="i" d="M22 12V18H28"/>
+<text class="t" x="17" y="35" font-size="10" text-anchor="middle">TS</text>
+<path class="ia" d="M30 31H36M33 27.5L36.5 31L33 34.5"/>
+<path class="p i" d="M38 20H52L58 26V52H38Z"/><path class="i" d="M52 20V26H58"/>
+<path class="ia" d="M42 32H50"/><path class="i" d="M42 38H54M42 44H51"/>
+</svg>

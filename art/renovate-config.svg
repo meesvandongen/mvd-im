@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+<style>.i,.ia,.ip{fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.i{stroke:#1c1b19}.ia{stroke:#ea580c}.ip{stroke:#fff}.a{fill:#ea580c}.b{fill:#fed7aa}.p{fill:#fff}.k{fill:#1c1b19}.t,.tp{font-family:system-ui,sans-serif;font-weight:700}.t{fill:#1c1b19}.tp{fill:#fff}</style>
+<path class="ia" d="M14.15 25.5A19 19 0 0 1 41.5 15.55M36.5 15.55H41.5L39 11.2"/>
+<path class="i" d="M49.85 38.5A19 19 0 0 1 22.5 48.45M27.5 48.45H22.5L25 52.8"/>
+<path class="a i" d="M32 20l10 5-10 5-10-5z"/><path class="b i" d="M22 25v12l10 5V30z"/><path class="p i" d="M42 25v12l-10 5V30z"/>
+</svg>

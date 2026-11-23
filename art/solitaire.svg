@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+<style>.i,.ia,.ip{fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.i{stroke:#1c1b19}.ia{stroke:#ea580c}.ip{stroke:#fff}.a{fill:#ea580c}.b{fill:#fed7aa}.p{fill:#fff}.k{fill:#1c1b19}.t,.tp{font-family:system-ui,sans-serif;font-weight:700}.t{fill:#1c1b19}.tp{fill:#fff}</style>
+<rect class="b i" x="20" y="14" width="24" height="36" rx="3" transform="rotate(-18 32 54)"/>
+<rect class="b i" x="20" y="14" width="24" height="36" rx="3" transform="rotate(18 32 54)"/>
+<rect class="p i" x="20" y="14" width="24" height="36" rx="3"/>
+<path class="a" d="M32 39c-6-4.5-9-7.5-9-11a4.5 4.5 0 0 1 9-1 4.5 4.5 0 0 1 9 1c0 3.5-3 6.5-9 11z"/>
+<text class="t" x="23.5" y="21.5" font-size="6.5">A</text>
+</svg>

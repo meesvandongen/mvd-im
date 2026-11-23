@@ -1,0 +1,15 @@
+{
+  "name": "mvd-im",
+  "private": true,
+  "type": "module",
+  "description": "Static index of all my projects, served at mvd.im",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs && pnpm dlx serve@14 dist",
+    "deploy": "node build.mjs && pnpm dlx wrangler@4 deploy"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@10.28.0"
+}

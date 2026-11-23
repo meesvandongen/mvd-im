@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+<style>.i,.ia,.ip{fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.i{stroke:#1c1b19}.ia{stroke:#ea580c}.ip{stroke:#fff}.a{fill:#ea580c}.b{fill:#fed7aa}.p{fill:#fff}.k{fill:#1c1b19}.t,.tp{font-family:system-ui,sans-serif;font-weight:700}.t{fill:#1c1b19}.tp{fill:#fff}</style>
+<path class="b i" d="M12 17V45c0 4 9 7.5 20 7.5s20-3.5 20-7.5V17"/>
+<path class="i" d="M12 31c0 4 9 7.5 20 7.5s20-3.5 20-7.5"/>
+<ellipse class="p i" cx="32" cy="17" rx="20" ry="7.5"/>
+<path class="a i" transform="translate(49 47) scale(.62) translate(-32 -39)" d="M32 31 L34.35 36.76 L40.56 37.22 L35.8 41.24 L37.29 47.28 L32 44 L26.71 47.28 L28.2 41.24 L23.44 37.22 L29.65 36.76 Z" vector-effect="non-scaling-stroke"/>
+</svg>

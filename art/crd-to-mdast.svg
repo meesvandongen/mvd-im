@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+<style>.i,.ia,.ip{fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.i{stroke:#1c1b19}.ia{stroke:#ea580c}.ip{stroke:#fff}.a{fill:#ea580c}.b{fill:#fed7aa}.p{fill:#fff}.k{fill:#1c1b19}.t,.tp{font-family:system-ui,sans-serif;font-weight:700}.t{fill:#1c1b19}.tp{fill:#fff}</style>
+<path class="a i" d="M16 21L25.5 26.5V37.5L16 43L6.5 37.5V26.5Z"/>
+<text class="tp" x="16" y="35.5" font-size="9" text-anchor="middle">{ }</text>
+<path class="ia" d="M28 32H34M31.5 28.5L35 32L31.5 35.5"/>
+<path class="i" d="M47 22V27M47 27H42V32M47 27H54V32M42 39V44"/>
+<rect class="b i" x="40" y="14" width="14" height="8" rx="2"/>
+<rect class="p i" x="37" y="32" width="10" height="7" rx="2"/><rect class="p i" x="49" y="32" width="10" height="7" rx="2"/>
+<rect class="p i" x="37" y="44" width="10" height="7" rx="2"/>
+</svg>
