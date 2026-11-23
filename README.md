@@ -30,9 +30,9 @@ The card title links to the first of `site`, `docs`, `demo`, `source` or `npm`.
 Needs Node 20 or later. There are no dependencies.
 
 ```bash
-npm run build          # writes dist/index.html, dist/favicon.svg and dist/projects.json
-OFFLINE=1 npm run build  # skip fetching npm versions
-npm run dev            # build and serve dist/ locally
+pnpm run build            # writes dist/index.html, dist/favicon.svg and dist/projects.json
+OFFLINE=1 pnpm run build  # skip fetching npm versions
+pnpm run dev              # build and serve dist/ locally
 ```
 
 ## Deploy
@@ -40,7 +40,7 @@ npm run dev            # build and serve dist/ locally
 `wrangler.jsonc` deploys `dist/` as a Cloudflare Workers static-assets site named `mvd-im`:
 
 ```bash
-npm run deploy
+pnpm run deploy
 ```
 
-Or connect the repository in Workers Builds with build command `npm run build`. Attach the custom domain (`mvd.im`) to the Worker in the Cloudflare dashboard. Rebuild now and then to pick up new npm versions.
+Or connect the repository in Workers Builds with build command `pnpm run build`. Attach the custom domain (`mvd.im`) to the Worker in the Cloudflare dashboard. Rebuild now and then to pick up new npm versions.

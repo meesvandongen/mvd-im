@@ -2,7 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "mvd-im",
   "compatibility_date": "2026-11-01",
-  // Static assets only, no Worker script. Build first: `npm run build`.
+  // Static assets only, no Worker script. Build first: `pnpm run build`.
   // Point the custom domain (e.g. mvd.im) at this Worker in the Cloudflare dashboard.
   "assets": {
     "directory": "./dist"
