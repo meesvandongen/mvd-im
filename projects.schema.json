@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "mvd.im project index",
+  "type": "object",
+  "required": ["categories", "projects"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "title": { "type": "string" },
+          "blurb": { "type": "string" }
+        }
+      }
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "category", "description", "links"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "category": { "type": "string", "description": "An id from `categories`." },
+          "description": { "type": "string" },
+          "links": {
+            "type": "object",
+            "additionalProperties": false,
+            "minProperties": 1,
+            "properties": {
+              "site": { "type": "string", "format": "uri", "description": "The live app or website." },
+              "docs": { "type": "string", "format": "uri" },
+              "demo": { "type": "string", "format": "uri" },
+              "npm": { "type": "string", "description": "npm package name, e.g. @mvd/table. The latest version is fetched at build time." },
+              "source": { "type": "string", "format": "uri" }
+            }
+          },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "archived": { "type": "boolean", "description": "No longer maintained. Shown at the end of its section, dimmed." }
+        }
+      }
+    }
+  }
+}
