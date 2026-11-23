@@ -6,5 +6,7 @@
   // Point the custom domain (e.g. mvd.im) at this Worker in the Cloudflare dashboard.
   "assets": {
     "directory": "./dist"
-  }
+  },
+  // Required by `wrangler preview`, which Workers Builds runs for pull requests.
+  "previews": {}
 }
